@@ -13,6 +13,6 @@ function hypotenuse(cathetus1, cathetus2) {
     return squareRoot(cathetus1, cathetus2); //Returns the value of the square root of the sum of the squared catheti, i.e. the hypotenuse.
 }
 
-console.log(hypotenuse(2, 4));
+console.log(hypotenuse(2, 4)); //Example that follows the 'if' statement of the first function.
 
-console.log(hypotenuse(0, 1));
+console.log(hypotenuse(0, 1)); //Example that follows the 'else' statement of the first function.
