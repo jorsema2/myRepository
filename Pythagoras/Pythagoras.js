@@ -1,6 +1,6 @@
 function hypotenuse(cathetus1, cathetus2) {
     if (cathetus1 <= 0 || cathetus2 <= 0) {
-        return console.log('The catheti must have positive integer values.');
+       throw new Error('The catheti must have positive integer values');
     }
     const sum = Math.pow(cathetus1, 2) + Math.pow(cathetus2, 2); //Returns the sum of the squared catheti.
     const hypotenuse = Math.sqrt(sum);
