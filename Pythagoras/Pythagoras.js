@@ -7,8 +7,8 @@ function hypotenuse(cathetus1, cathetus2) {
     return hypotenuse;
 }
 
-console.log(hypotenuse(2, 4)); //Example that follows the 'if' statement of the first function.
+console.log(hypotenuse(2, 4)); //Example that enters the 'else' statement of the first function.
 
-console.log(hypotenuse(0, 1)); //Example that follows the 'else' statement of the first function.
+console.log(hypotenuse(0, 1)); //Example that enters the 'if' statement of the first function.
 
 //hice el código más compacto, con solamente una función, y variables dentro de esa función. 
