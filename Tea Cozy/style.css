@@ -1,0 +1,104 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 10;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px;
+}
+
+a {
+    color: seashell;
+}
+
+#mission {
+    align-items: center;
+    background-image: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 700px;
+    padding-top: 70px;
+    width: 100%;
+}
+
+#mission div {
+    background-color: black;
+    display: inline-block;
+    height: 15%;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+#mission div h2, #mission div h4 {
+    margin-top: 15px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pictures div {
+    height: auto;
+    width: 30%;
+    margin: 1%;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 90%;
+}
+
+span {
+    display: block;
+    font-weight: bold;
+    margin-top: 4%;
+}
+
+#locations {
+    background-image: url("img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+#locations h2 {
+    position: relative;
+    top: 20%;
+}
+
+#locations-flexbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#locations-flexbox div {
+    align-items: baseline;
+    background-color: black;
+    display: inline-block;
+    font-size: 1.2em;
+    line-height: 1.3;
+    margin: 2%;
+    padding: 0 5px 2px 5px;
+    width: 25%;
+}
